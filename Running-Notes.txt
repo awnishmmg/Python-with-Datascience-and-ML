@@ -1,0 +1,564 @@
+Introduction to DS and AI 
+===========================
+Data Heirarchy :-
+1. Data Technology : Technology which drives under data./which is data driven
+2. Data can be structured and Non Structured
+
+Who is going to use Data 
+1. Human : Data Science
+2. Machine : AI  and (ML)
+
+Human Driven:-
+=============== 
+SQL is mendatory -- Intermediate Level
+Python+R+ Maths
+----------Pre-requistic --------------------------
+1. Data Analyst (Power BI)
+2. Data Engineer (Power By and Pypark, ETL(Extract,Transform,Load) Pipelines)
+3. Big Data Engineer (HADOOP,BHive,Apache Pig,scala and Haskel)
+4. Data Warehouse Engineer (facts,marts,datalake,procedures,ETL Pipelines,Pyspark)
+   (Move to AI/ML)
+   
+Machine Driven :-
+===================
+1. AI : Branch of CS which whose intent is to replicate,respond,mimic like human behaviour or 
+Intelligence is called as AI.
+	Intention : To make Intelligent System.
+2. ML : sub set of AI in which machines learns from data(labelled,un-labelled data)
+3. DL : Deep Learning : Design -> Artificial Neural Network
+4. CV : Computer vision 
+5. MLOPS : Machine Learning and Operations 
+
+----------------------Bottom of AI-----------------------------
+Generative Ai 
+	1. DL 
+	2. NLP 
+	3. Tokenisation 
+	4. Vectorisation 
+	5. Tensorization 
+	6  Cuda Core
+	7. Embedding (Encoder/Decoder)
+	8. vector Embedding
+	9. Tensor Embedding
+	10. Bidirectoral Vector Embedding
+	11. grok infrastructure
+	12. crew.ai infrastructure
+	13. Transformers.
+	14. Rag System
+Agentic Ai (Langchain,Langraph,LammaIndex)
+Adk (Agent Development Kit)
+
+Cloud Infrastructure 
+1. Azure Cloud 
+2. AWS (Sagemaker and Bedrock)
+3. GCP (Google Cloud Plateform) : VERTEX AI 
+
+17-07-2025:-
+==============
+1. we worked with input()
+	1. input() : No Output is scene in the console, 
+		Problem with this input :-
+		1. we need to add print()
+		2. use will not be able to what to do.
+		it is not recommended to be used. rather we must go for second case.
+	2. input("Enter the value:")
+	   steps 
+	   1. Enter the value :20 
+	   name = input('Enter the value:')
+	   name => 20
+	   return type : string 
+	   
+	   if you want perform some arthmetic operation, in this case you need to type cast.
+	   
+	   type casting in python :-
+	   =======================
+	   1. implicit typecasting : automatic type conversion.
+	   2. explicit typecasting : user will forcefully change the datatype.
+	   
+	   maths :-
+	   int + int = int 
+	   int - int =  int 
+	   int * int  = int 
+	   int/int = 
+			1. if type is strict => int 
+			2. if type is flexible => float
+			
+Python :  similar datatype 
+Mathematical : Type of left and type of right must be numeric (float,int,double)   
+floor() => 2.2,2.3,2.9 => 2
+ceil()	2.2,2.3,2.9 => 3
+floor(2) 
+ceil(2)
+floor(2) == ceil(2) => valid 
+
+Data Types:-
+=============
+1. primitive Data Types 
+2. collection Data Types 
+
+name mangling in Python:-
+========================
+in python naming convention plays a very important in terms of varible naming 
+classname function naming, of any Indentifiers.
+
+mangled name:  these are special indentifier which when named with this concept
+	inherit special behaviour.
+	mangled names called as magic names 
+	1. magic varible
+	2. magic function 
+	3. magic module
+	__init__
+	__doc__
+	
+	if we utilise _ as prefix or suffix then behaviour becomes mangled.
+	eg : _ it is a mangled keyword 
+	 _  : softkeyword 
+	 _ : Buffer Opererator : holds the last result.
+	 _ : numeric sperator : used to improve readability of large numbers.
+	 
+	 These are actually reserved by the python but we can change the behaviour 
+	 of these keyword 
+	 _ and j 
+	 j : complex imaginary we can change the behaviour
+	 
+	 _ can be used private,public and protected naming convention.
+	 
+	 
+non mangled name : These are normal naming convention and in this we can use 
+_ as part of snake case.
+
+21-07-2025:-
+===========
+Operators :-
+Operators are the special symbols which defines the relationship b/w two operands
+which on evaluating gives desired result.
+
+2 [+] 2 = 4
+2 [*] 2 = 4
+================
+3 [*] 2 = 5
+3 [+] 2 = 6
+
+consider a equation :-
+x [op] y = res  
+
+x and y are operands 
+op : operator
+res : result 
+
+types of operators 
+1. unary operator (either x or either y)
+	when used it modifies the property of the operand 
+	eg: x=5  x is +ve x > 0 
+		x=-5
+		-x it is -ve x > 0
+		
+	1. - Arthematic Negation
+	2. ~ bitwise not 
+	3. modify operator 
+	    ++ or -- 
+		Note : unfortunatly python does not support ++/--
+	4. not (logical not)
+    5. (cast) operator 
+       eg:- 
+	   ch = 'A'
+	   asci = (int)ch 97
+	6. new ---> constructor object create 
+	7. delete ---> destructor object delete 
+	
+	   
+2. Binary Operator (taking a and y both)
+    2 Operands will be required 
+3. ternary operators (x,y and z)
+	3 Operand will be required.
+
+Types of Operators in Python:-
+===============================
+Trick : Are re con log special bit assign karengey
+Arthematic Operator : (B)
+	used for Mathematical Operations  
+	1. native operator
+	2. using math module.
+Relational Operator(B)
+	1. equality  (==) 5==5 True
+	2. in-equality (!=) 5!=6 True 
+			1. strict in-equality
+				1. greater than 
+					7 > 3 True.
+				2. less than 
+					3 < 4 True 
+			2. slack in-equality
+				1. greater than or equal to 
+					x >=5
+		           Range = {Inf,6) U (5)
+				   x > 5 or x == 5 <------------- logical Or (||)
+				   
+				2. less than or equal to 
+				   x <=5 
+				   Range = x => {-Inf,4) U (5)
+				   x < 5 or x  == 5 <------------logical Or 
+				   
+				   
+				 we want to define range :-
+				 x > 50 and  x < 90 ----------- Logical and (&&)
+				
+compound conditions:-(B)
+======================
+1. mendatory (and)
+2. optional  (or)
+			
+logical Operator (B)
+	1. and : when all conditions are mendatory it works on the basis AND Gate. 
+		(Love Marriage with All Conditions).
+		
+		1 and 1 => 1 
+		1 and 0 => 0 
+		0 and 1  => 0 
+		0 and 0  => 0
+	
+	2. or : when any one condition is mendatory it works on the basis of OR Gate
+		(Love Marriage with No condition)
+		
+	   1 and 1 => 1 
+	   0 and 1 => 1
+	   1 and 0 => 1
+	   0 and 0 => 0 
+
+	
+	3. not : it is called inverter.
+	  True -> False 
+	  False -> True 
+	  Yes -> No 
+	  No -> Yes 
+	  
+	  TABLE 
+	  ----------
+	  A | not A 
+	  0   1
+	  1   0
+	
+	
+bitwise Operator : (B)
+1. Bitwise or (|)
+2. Bitwise and (&)
+3. Bitwise not (~)
+4. left shift (<<)
+5. right shift (>>)
+6. Exclusive Or (^)
+
+1. Note this is not important for as programming level 
+2. Not Required in Enterprise Application 
+3. DSA -> Bit Manupulation -> Bitwise Operator are mendatory.
+4. IOT or Embedded people need.
+
+swapping using Exclusive Or (^):- (B)
+====================================
+trick : Aba Salam
+a = a^b
+b = a^b
+a = a^b 
+
+Exclusive Or on Basis of Odd Parity and Even Parity:-
+====================================================
+odd => visam (different)
+even => sam (same)
+
+Even Parity => 0 
+Odd Parity = 1
+
+0 0 (E) => 0
+0 1 (O) => 1
+1 0 (O) => 1 
+1 1 (E) => 0
+
+1st step a = a^b 
+--------------------
+a = 2 -> 0010  
+b = 3 -> 0011
+
+0010
+0011 
+--------
+0001 => a 
+2nd step  b = a^b
+======================
+0001 -> a 
+0011 -> b
+-------
+0010 -> b -> 2
+
+3rd step a = a^b  
+0001 -> a 
+0010 -> b 
+---------
+0011 -> a -> 3 
+Assignment Operator (B)
+====================
+let x=2
+x=x+5 => 2+5 => Assign x 
+
+
+Associativity and Precendence Order :-
+2+2 -> Associativity Order L to R 
+= -> -> Associativity Order R to L 
+
+
+x =  x+5 => x+=5
+x =  x-5 => x-=5
+x =  x*5 => x*=5
+x =  x/5 => x/=5
+x =  x%5 => x%=5
+x =  x//5 => x//=5
+x =  x**5 => x**=5
+
+conditional Operator :- (T)
+=======================
+1. officially python does not Ternary Operator as Other langauge
+2. we can implement Ternary using inline if-else 
+3. Short hand of if-else
+
+syntax :-
+result = True if x else False 
+
+
+special Operator :-
+==================
+1. walrus operator (3.10+ Version)
+2. match operator  (3.10+ Version)
+3. membership operator 
+4. instanceof Operator : Already discussed
+5. Iterable Operator  : Already discussed
+6. identity operator 
+7. Match all (3.10+ Version)
+8. Match Any (3.10+ Version)
+		
+match operator :-
+=================
+match operator was included in python 3.10+ version as a replacement of switch case.
+python officially does not support switch statement.
+alternative of it, match case 
+
+syntax :--
+==========
+switch(<value>){
+	case <case-1>:{
+		statement 1;
+		statement 2;
+		...
+		statement n;
+		break;
+	}
+	case <case-2>:{
+		statement 1;
+		statement 2;
+		...
+		statement n;
+		break;
+	}
+	default:{
+			statement -1; 
+			statement -2;
+			...
+			statement n;
+	}
+	break;
+}
+
+match(<value>):
+   case 1: 
+		statement 
+   case 2:
+		statement 
+   case _:
+	 statement 
+
+
+membership operator:-
+=======================
+in : check if item is available in list 
+not in : checks if item is not available in list
+
+it will work collection like string,tuple,list,dictionaries(keys,values)
+
+identity operator :-
+=======================
+1. is : if a perticular values is a exact copy a member.
+	python : 1 shallow copy and deep copy 
+	shallow : value copy 
+	deep copy : value copy and memory address copy.
+2. is not 
+
+
+
+working with all()
+====================
+
+all() Evaluates True, if all the cases matches to true. 
+it works like and condition in the collection.
+Eg:-
+all([True,True,False]);  False 
+all([False,False,False]); 
+
+working with any() it evaluates to true condition even if one condition if one condition.
+==================
+
+working Example:-
+===================
+>>> all([True,True,False])
+False
+>>> all([True,True,True])
+True
+>>> all([False,True,True])
+False
+>>> all([False,False,False])
+False
+>>> all(['Awnish',29,'cricket',True,None])
+False
+>>> all(['Awnish',29,'cricket',True])
+True
+>>> any(['Awnish',29,'cricket',True])
+True
+>>> any(['Awnish',29,'cricket',True,None])
+True
+>>> any([None,None])
+False
+>>>
+
+use case of any and all():-
+===========================
+any() and all() can be determine weather a collection is homogenious or heterogenious
+
+collection types 
+1. homogenious : every member must have same datatype
+2. Heterogenous : every memeber have different datatype.
+
+command line argument are special collections with datatype as string.
+
+Basic of Python :-
+=================
+
+Q1: What is flavour of Python ?
+Ans : cpython
+
+Q2 :- Compilation Order of Python 
+	1. Source code ----------> compile ------------> bytecode(.pyc) -----> PVM(Interprter)-->
+	execute.
+
+	.pyc -----------> byte code ------> Plateform Independent
+	python flexible Langauge, and pvm it hides the bytecodes and directly runs.
+	but you want to explicitly generate compiled file you can generate it.
+	
+Q3 : is python compiled or Interpreted 
+Ans: python compiled.
+      
+	 in python by-default every file,module is not compiled. but it is used a module.
+	 then pvm will first compile to byte code and generate __pycache__ folder 
+	 and its compiled will be stored in pychache folder.
+	 file generated format 
+	 
+	 filename.<flavour-name>-version.pyc |  compiled python file.
+	 
+
+types of input :-
+1. compile input :- the arguments or input provide before the execution of the program 
+or at compile time also called as command line arguments.
+2. Runtime input:- the argument or inputs provided at run time
+	 
+How to work with compile time arguments:-
+========================================
+1. argv : argument variable 
+2. argc : argument count => len(argv)
+
+important about command line argument:-
+in order to work with commmand line argument we need sys module.
+
+import sys 
+sys.argv  # list of command line argument
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+	   
+	   
+
+
+
+

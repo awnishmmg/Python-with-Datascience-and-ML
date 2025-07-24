@@ -1,0 +1,3 @@
+#wap in python to show all the possible no of keywords:-
+#python : 35 Keyword : Hard keywords 
+#python : 4 Keyword : soft keywords
