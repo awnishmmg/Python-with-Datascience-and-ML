@@ -476,6 +476,27 @@ import sys
 sys.argv  # list of command line argument
 
 
+Note : This class has to nothing to offline class.
+completly independent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	 
 
 

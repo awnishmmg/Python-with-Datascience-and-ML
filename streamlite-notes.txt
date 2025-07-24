@@ -1,0 +1,292 @@
+Introduction of Streamlite Applications:-
+============================================
+1. Streamlite is a Framework used for Data Science people
+
+Data Science people:-
+1. Data Analyst
+2. Data Engineers
+3. AI and ML People 
+4. Data Ware House People.
+
+2. what type application we can build using streamlite :-
+we know that we can build any of application using python.
+
+1. using python we can cli application : cpython
+2. using python we can GUI Application : Tkinter package 
+3. using python we can build web application  : Django or Flask
+4. using python we can build rest api's : 
+	DRF (Django Rest Framework),Fast Api.
+5. using python we can build IOT Application 
+	Resberry Pi IO Package
+6. using python we can build game application 
+	pygame.
+	
+	
+what is Batch?
+1. Data science or AI ML
+2. for us, Data is important, Data Visualisation, Data Analysis.
+3. we more intrested in, building Automations.
+4. we are more instrested in ML Application 
+5. we are more instrested in NLP Applcaiton 
+6. we are  more instrested LLM Application.
+
+we have nothing to do with UI/UX.?
+Have you chatgpt/ClaudAI/Perpexility/Gemini/
+
+whenever you design/develop an application 
+1. End user point of view
+2. you have to think as programmer.
+
+can normal user use cli ?: No 
+normal user : definetly : you must build some ui.
+ui : you need not to learn html,css,javascript
+
+Our Data Applications:- must must have UI for normal user.
+Data Engineers/Data Analyst/Data Science : These people must focus on Data more rather 
+than UI.
+
+what is our Requirement?
+1. we must be to build a bare minimum ui so that our Normal user or end user can Interact 
+with your Application (Models,LLM,Api....)
+
+Traditional Approach before streamlite was not build?
+======================================================
+Before streamlite, ML Models, or ML Applications used to be build 
+in a VPS Infrastructure or Some VM Machine.
+
+pipeline of Deploying the ML Application before streamlite:-
+============================================================
+1. set up virtaul machine (cloud server)
+	1. IAAS,PAAS 
+	2. setup and install python and other libraries. (pandas,numpy....)
+	3. setup our code base for ML Application 
+	4. consider model -> model.py --> as service(cli)
+	5. sample flask or Django application ---> end point ->URL 
+	
+	 /myapp.com/api/model
+	
+	6. /myapp.com/api/model This end point has to be mapped with cli 
+	service (model.py)
+	7. Expose this /myapp.com/api/model as REST API so that 
+	   ANY User can use it.
+	   
+	   
+	-------------------------- Backend Application ----------------------------
+						IP Hosted / Domain Hosted 
+							  Response 
+								|
+								|
+								|
+								|
+							 Request 
+	Front End Design (React|Angular|Vuejs|html,css)
+	Javascript -> fetch api -> Ajax -------------> Request ---------> Backend Application 
+	
+	
+	1. Data Engineering Roles and Responsilibity
+	2. UI and UX. (client Interface)
+	  Web developer Roles and Responsilibity 
+	  1. html
+	  2. css 
+	  3. Bootstrap /Tailwind (Responsive design)
+	  4. Dynamic Content Handling Javascript.
+	  5. React/Angular.
+	  
+	 completly waste of time.
+	 
+	 So we have 2 Solution to overcome this problem
+	 1. Seperate the Roles and Responsilibity.
+		-Data Science Person should do his Task 
+		-UI and UX person should do his Task.
+		
+		All the people who Data Domain they will publish there 
+		application as open Api.
+		Some Plateform are:-
+		-https://pypi.org/
+		-huggingface
+		-kaggle
+		
+		
+	Any person who ever want to use your Data Application/Model Application 
+	it will utilised as Open API.
+	
+    How we will earn?
+	1. is chatgpt free or paid ?
+	chatgpt is free as open API. but there is limitation with tokens.
+	
+	
+What the AI Application we are building there should be bare minimum UI or not ?
+
+The Bare minimum Requirement for UI can be done by using python framework 
+called as streamlite.
+ 
+what is streamlite ?
+it is python framework used by DataEngineer/Data Analysit/ML Engineer to build bare minimum 
+web based UI.
+
+How to setup streamlit :-
+===========================
+1. create a virtual env 
+	what is virtual env
+    
+	Os
+	1. global env 
+		if you have installed python 3.10
+		App A ---------> 3.10
+		App B ---------> 3.10
+		App C ---------> 3.10
+		App D ---------> 3.10
+		
+	2. local env 
+		
+		suppose you are engineer in company.
+		project -> create 2020 (3.8)
+		join -> 2025 -> (3.12)
+		
+		App A 3.7 --------> local env
+		App B 3.8 --------> local env
+		App C 3.12 --------> local env
+		
+		This local env for each different application 
+		is called virtual environment.
+		
+		Advantage of Virtual environment:-
+		====================================
+		1. No conflict with python version
+			global version different 
+			local version different
+		2. each application will be isolated from each other.
+		
+		
+		App AI (virtual env)
+		------
+		numpy 
+		pandas 
+		matplotlib 
+		sckit-learn
+		...
+		...
+		
+		
+		
+		App web  (virtual env)
+		--------
+		django 
+		flask 
+		fastapi 
+		mysql 
+		
+		if you globally install it will un-necessarily 
+		increase the size of package.
+		
+		pip install django
+		pip install flask
+		pip install fastapi
+		pip install mysql
+		
+		pip install numpy 
+		pip install pandas 
+		pip install matplotlib 
+		pip install sckit-learn
+		
+		suppose 200 package every time i need run pip install
+	    Solution :-
+		we make requirements.txt 
+		1. django
+		2  flask
+		3. fastapi
+		4. mysql
+		5. pandas
+		
+		
+		command:-
+		pip install -r requirements.txt 
+		
+		type requirements.txt
+		
+		
+1. create a virtual env 
+   python -m venv <any-name>
+   eg:-
+   
+   python -m venv myenv 
+   python -m venv adityaenv
+   python -m venv katreenaenv
+   
+2. Activate the Environment
+   cmd:myproject:/>
+   myenv
+    |scripts
+		|activate ---> venv(start)
+		|deactivate ---> venv(stop)
+		
+	cmd:myproject:/> myenv\scripts\activate
+	
+	(myenv)cmd:myproject:/>	
+	  |
+	  |
+	  venv is activated.
+	  
+	 
+	 dont use powershell:-  permission Issue.
+     ====================	 
+	 cmd -> Run as Administrator.
+	 
+	Note : if you have Ananconda,install so your virtual env
+	by default Anaconda is (base).
+	
+	
+	Project Structure for Python Application 
+	========================================
+	Project folder 
+		|myenv 
+		|requirements.txt 
+		|verify.py 
+		
+		
+		pip install -r requirements.txt 
+	
+	verify.py
+	version.py
+	
+	steps:-
+	1. read the content from requirements.txt 
+	2  run a loop and import all packages.
+	3. use __version__ to display there version.
+	
+		
+	
+	
+	
+	
+	  
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
