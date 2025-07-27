@@ -551,22 +551,99 @@ def function_name(param1,param2,param3.....paramn):
 def add(x,y):
 	print('result:',x+y)
 	
+types of arguments:-
+=================
+1. positional arguments :  we pass the argument during the calling of the functions with 
+						   positional order.
+						  position matter a lot.
+						  
+						  eg: add(10,20) # a=>10 and b=>20
+							  add(20,10) # b=>10 and a=20
+						 
+2. keyword arguments :  here we use, variable name or keyword name, for passing the arguments.
+						position does not matter here
+						
+						eg: add(a=10,b=20) # a=>10 and b=>20
+							add(b=20,a=10) # b=>10 and a=20
 
+Types :-                    default argument : it will work when no values passed.
+							default argument is assigned with some value
+							1. if values is supplied then new value with overwrite the older value.
+							2. if values is not supplied then it will use same value for argument.
+							3. default argument must be last argument to be declared.
+							
+							case 1: if default argument passed as positional,so
+									default argument must be at last position
+							case 2: if default argument is passed as keyword argument
+									does order does not matter
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dynamic argument passing:-
+========================
+	1. if we want to pass dynamic argument, we can use varg-method or variable 
+	length argument.
+	2. the concept implemented here is tuple-upacking
+	3. we can make argument dynamic we prefix *arg 
+	
+	syntax:
+	def fun(*arg):
+	
+	we can 0,argument, 1 argument or n of argument.
+	
+	types of combinations:-
+	1. *args with positional:-
+		=====================
+		positional argument it is resolved,
+		then *args.
+		
+		declaration 
+		=============
+		def fun(a,b,c,*args)
+		
+		calling:-
+		=========
+		fun(10,20,30,40,50,60)
+		where a = 10
+		b = 20 
+		c = 30 
+		args = (40,50,60)
+		
+		in this keyword argument passing will not work.
+		
+   2. *args with keyword:-
+   =========================
+	*args is resolved and then keyword argument is supplied.
+	
+	    declaration 
+		=============
+		def fun(*args,a,b,c)
+		
+		calling:-
+		=========
+		fun(10,20,30,a=40,b=50,c=60)
+		where 
+		a = 40
+		b = 50 
+		c = 60 
+		args = (10,20,30)
+		
+		
+		default argument with *args:-
+		================================
+		consider a declations:-
+		==========================		
+		def fun(*args,a=30)
+		
+		fun(a=50)
+		func(10)
+		func(10,20)
+		
+		
+		Note : there can be only one *arg
+		
+		
+		
+		
+	
 
 
 
