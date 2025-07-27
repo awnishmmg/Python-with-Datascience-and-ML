@@ -15,10 +15,7 @@ def info():
 
 
 
-    print(f'''
-        info command:
-        I will info with the commands.
-        list of commands\n{tmp}
+    print(f'''info command: I will info with the commands. list of commands\n{tmp}
     ''')
 
 
