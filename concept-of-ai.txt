@@ -1,0 +1,94 @@
+AI : it is branch of computer science namely known as "Artificial Intelligence",
+	 whose main aim to predict,behave and mimic,think like humans.
+	 "Artificial" is related to main-made.
+	 
+	 we want to build machine(Intelligence Machine) which could persist/copy the 
+	 Intelligence like humans.
+	 
+	 Intelligence System :-
+	 1. General AI : it some what like human it makes mistake on the basis 
+	 trial and error and it learns from mistake.
+	 
+	 Human ----> Mistake ----> Learning
+	 confidence Score (effeciency) (0,1) 0r (0 to 100%)
+	 like effeciency can never 100% confidence will also Range = 0<cf(s)<1
+	 effeciency = output
+				  ------
+				  input 
+	  cf(s)  =  Output case   Output Dataset By Agent
+				----------- = -----------------------
+				 input case    Input Dataset (csv,sql)
+		At Every iterations cf(s) factor will increase.
+		
+		logic = Predicate Logic
+		Rules keeps changing 
+		Baye's(Naive Baye's) Theoram of Probability 
+		
+	 2. Rule Based
+			This not a exactly a Ai but it behave turing machine.
+			Every program you make in computer will act as Turing machine.
+			Program take some set input perform computation on in the input
+			on the basis context free grammer (rules) for the defined 
+			set of states.(finite states).
+
+			cf(s) = 0 or 1
+		logic = digital logic 
+		1. probability of possible event (must)
+		2. probability of impossible event (never)
+		Rules fixed.
+		
+Design a Turing Machine Named Munna which can convert any number into numeric words.
+The Problem statement : NLP (Natural Langauge Processing)
+
+55
+fifty five 
+Range 0 to 100
+
+Logic :-
+=========
+79 
+70+9 
+70+1
+70+2
+79+3
+...
+...
+...
+70+9 : Seventy 
+
+
+41 divide 10 
+q = 4
+r = 1               
+q*10 = 40 => tens = ['ten','twenty','thirty','forty']
+r = 1
+
+units = ['zero','one','two','three','four','five','six','seven','eight','nine']
+number_word = tens[q-1]
+next_word = units[r]
+	41 => forty one 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+			

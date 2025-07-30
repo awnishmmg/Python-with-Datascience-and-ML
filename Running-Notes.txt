@@ -630,16 +630,211 @@ Dynamic argument passing:-
 		default argument with *args:-
 		================================
 		consider a declations:-
-		==========================		
+		=================================	
 		def fun(*args,a=30)
 		
 		fun(a=50)
 		func(10)
 		func(10,20)
+	
+	Note : there can be only one *arg
+	
+	types of functions on the input and output:-
+	=============================================
+	1. input : parameters in the function 
+	2. output : return types in python we donot have return types (proto-type) hence we dynamically 
+	   -return any type of value by using return keyword.
+	By Boolean Algebra:-
+	Relations if there I =  0 ---------> O = 1
+	Eg: Program with No input value but may return output.
+	
+	O(x) = 2^I(x)
+	Eg:-
+	O(x) = 2^0 => 1
+	2 Input => 2^2 => 4
+	
+	I1 I2 = Output
+	0   0 
+	0   1
+	1   0 
+	1   1
+	
+	I(x) O(x)
+	0     0
+	0     1
+	1     0 
+	1     1
+	
+	============
+	trick:-
+	0  0
+	1  0
+	0   1
+	1   1
+	functions Types :-
+    1. No argument No Return Type 
+    2. No Argument with Return Type 
+    3. with Argument No Return Type 
+	4. with Argument with Return Type 
+	
+	In Python we have total 16 Types of extension in I/O :-
+	======================================================
+	1st Type : Positional Argument
+	1. No Positional-argument No Return Type 
+    2. No Positional-Argument with Return Type 
+    3. with Positional-Argument No Return Type 
+	4. with Positional-Argument with Return Type 
+	
+	2nd Type : Keyword Argument
+	1. No Keyword-argument No Return Type 
+    2. No Keyword-Argument with Return Type 
+    3. with Keyword-Argument No Return Type 
+	4. with Keyword-Argument with Return Type 
+	
+	3rd Type : default Argument
+	1. No default-argument No Return Type 
+    2. No default-Argument with Return Type 
+    3. with default-Argument No Return Type 
+	4. with default-Argument with Return Type 
+	
+	4rth Type : *varg Argument
+	1. No *varg-argument No Return Type 
+    2. No *varg-Argument with Return Type 
+    3. with *varg-Argument No Return Type 
+	4. with *varg-Argument with Return Type 
+	
+	5th Type : **kwargs Argument
+	1. No **kwargs Argument No Return Type 
+    2. No **kwargs Argument with Return Type 
+    3. with **kwargs Argument No Return Type 
+	4. with **kwargs Argument with Return Type 
+	
+	No argument No Return Type (positional):-
+	============================================
+	1. declaration:-
+		def welcome():
+			print('Good Morning')
 		
+	2. calling :-
+		welcome()
+	
+	No argument with Return Type (positional):-
+	============================================
+	1. declaration:-
+		def gravity():
+			return 9.8
 		
-		Note : there can be only one *arg
+	2. calling :-
+		g=gravity()
+		print(g)
 		
+	with argument no Return Type (positional):-
+	============================================
+	1. declaration:-
+		def add(x,y):
+			print(x+y)
+		
+	2. calling :-
+		add(10,20)
+		
+	with argument with Return Type (positional):-
+	============================================
+	1. declaration:-
+		def add(x,y):
+			return x+y
+		
+	2. calling :-
+		result = add(10,20)
+		print(result)
+		
+	Returning from the functions:-
+	=============================
+	generally in any programming langauge, we can return only 1 value at time.
+	but if we return multiple values we can return as a collection
+	
+	1. return as dictionary
+	2. return as list 
+	3. return as unique list list(set())
+	4. return as tuple 
+	4. returning multiple values. (() are removed)
+	
+	In All case :-
+	Argument is May/May Not mendatory but return is mendatory
+	1. No Argument with No return type : Not valid 
+	2. with Argument with No Return type : Not valid.
+	
+	working with global and local scope scope:-
+	===========================================
+	inside function : local 
+	output function : global scope 
+	non local scope : having local read access but not write global access.
+	
+	 in order to modify, the global value 
+	 we need to declare global keyword 
+	 
+	 global a;
+	 a=10
+	 
+	working with Recursion:-
+	==========================
+	Recursion Types:
+	1. shallow Recursion
+	2. Depth Recursion
+	
+	
+	in c langauge during functions we have 2 types of calls 
+	1. call by value  : shallow copy
+	2. call by reference : deep copy
+	
+	shallow copy : values 
+	deep copy : memory 
+	
+	we know that, function calling to itself is called recursion.
+	
+	1. Sequential calling :-
+	   Eg:- a function should return to its scope where it is called.
+	   consider a multiple function calling one another in this scenerio 
+	   f1() call f2() f3 call f4() call f5()
+	2. cyclic cycling:
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 		
 		
 		
