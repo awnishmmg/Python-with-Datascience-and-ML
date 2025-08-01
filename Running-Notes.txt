@@ -824,8 +824,8 @@ depth = 1000
 How to set the limit of the recursion limit:-
 ============================================
 print(sys.setrecursionlimit(2000))
-  it will print 5 times 
-  1995 more lines printed.
+it will print 5 times 
+1995 more lines printed.
 	 
 Recursion was build before loops in order to perform cyclic event, when loop was not invented.
 
@@ -839,7 +839,176 @@ in cycling calling we have 2 main conditions
 1. race condition : No condition is check hence it is handled by else.
 2. base condition : for base condition we have if.
 	
+
+modules and packages:-
+======================
+python supports modular programming.
+you can modularize your code into different different modules and packages.
+
+what is python file:-
+a python file is a collection for variables, syntaxes, logic, functions and classes.
+
+in python every python file is a module.
+if it is a module we can utilise it and import in other file.
+
+module : using the source code in other file is said to be module.
+
+Types of modules:-
+=================
+1. pre-defined modules :  modules which comes ready made with python is said to be pre-defined.
+2. user-defined module : modules which are made by user for there own purpose.
+
+modules are of two types 
+1. internal modules :  we need not to install them.
+2. external modules :  they are not available in the system has to be externally installed 
+	using pip 
+	Eg:- 
+	-pip install django 
+	-pip uninstall django
 	
+consider django is ready made or user-defined.
+but django it does not come pre-defined
+we need to install it.
+
+Who invented python ?
+Guido Van Rossum.
+	print() -> prefined 
+	input() -> prefined
+	math module: pre-defined
+	
+Note : every ready-made module or functions is once user-defined.
+Aviskar : xyz module : user-defined
+Anand : import xyz  : pre-defined
+
+1. sys 
+2. os 
+3. keyword 
+4. math 
+5. random 
+6. collection 
+
+there are some modules which comes pre-installed as you install python.
+Are these required to be externally installed. : No install 
+Internal modules.
+if i am  building some module for own purpose will it will be available in my system or not.
+
+How to make our own module:-
+===============================
+p1.py 
+
+a=10 
+def wish():
+	print('wish functions')
+	
+def add(x,y):
+	return x+y 
+	
+	
+class Test:
+	def display():
+		print('The time is : 09:00 PM')
+
+
+p2.py 
+
+import p1 #module
+
+p1.a 
+p1.wish()
+p1.add(10,20)
+
+t = p1.Test()
+t.display()
+
+module aliasing :- 
+======================
+giving a pet name to a module name or giving a secondary name to modulename 
+syntax 
+
+import module as new_name
+
+new_name.x 
+new_name.y 
+new_name.abc()
+
+Note : alias name should be less than lenght of module_name.
+
+specific member import :-
+=====================
+what are members :- All the variable,methods or classes defined or any Indentifier.
+inside a module is said to be member.
+from .. import statement.
+
+syntax :-
+=========
+single member:- 
+from module import member
+or 
+
+multiple members 
+from module import member1,member2,member3
+
+Note:-
+Only those memeber which are import will available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
 	
 	
 	
