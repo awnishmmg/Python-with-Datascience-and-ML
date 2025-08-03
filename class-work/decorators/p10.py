@@ -1,4 +1,4 @@
-#decorator concept
+#decorator concept : type 2
 
 def trans_decorator(func):
     def wrapper():
@@ -26,12 +26,12 @@ def saad():
  
 
 #without 
-awnish = trans_decorator(awnish)
-bansal = trans_decorator(bansal)
-saad = trans_decorator(saad) 
+x = trans_decorator(awnish)
+y = trans_decorator(bansal)
+z = trans_decorator(saad) 
 
-awnish()
-bansal()
-saad()
+x()
+y()
+z()
 
      

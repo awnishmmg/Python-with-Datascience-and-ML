@@ -255,11 +255,95 @@ How to setup streamlit :-
 	3. use __version__ to display there version.
 	
 		
+	How to use project from git repository :-
+	=======================================
+	make sure you sure system has git 
+	open cmd:/> 
+	git --version 
+	git version 2.47.1.windows.1
+	
+	git not recognised as internal external command.
+	if you system does not recognise the command git this means you need install git.
+	
+	https://git-scm.com/downloads/win
+	
+	git is scm tools or vcs tools 
+	scm : source code management 
+	vcs : version control system
+	
+	steps to download the repo :-
+	===========================
+	make folder where you want to donwload the repository
+	cd online-dsml-session
+	git clone https://github.com/awnishmmg/Python-with-Datascience-and-ML.git
+	
+	generally my never upload packages in github, we have not uploaded myenv
+	-requirements.txt 
+	-version.py 
+	
+	python -m venv myenv 
+	activating and deactivating
+	
+	1. myenv\scripts\activate 
+	(myenv) cmd:/> our myenv is activate
+	
+	2. How to deactivate:-
+	(myenv) cmd:/>myenv\scripts\deactivate
+	
+	 dir 
+	-requirements.txt 
+	-verify.py
+	
+	python verify.py
+	pip install -r requirements.txt 
+	
+	After installing 
+	re-run 
+	python verify.py 
+	
+	streamlite : is a ui and deployment environment tools for data apps.
+	gradio 
+	https://www.gradio.app/
+	
+	Both are deployment tools.
+	
+	check error :-
+	================
+	python index.py 
+	
+	How to streamlit application:-
+	=================================
+	streamlit run index.py
 	
 	
 	
 	
-	  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
 	
 	
 	
