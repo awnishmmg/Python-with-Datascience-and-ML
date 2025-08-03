@@ -951,6 +951,407 @@ from module import member1,member2,member3
 Note:-
 Only those memeber which are import will available.
 
+packages is a collections of modules.
+consider module p1.py p2.py p3.py pn.py ------------> place them in a folder.
+Now this special folder will be called as package
+
+multiple modules kept in a folder is said to be packages.
+what is advantage of package:-
+==============================
+mmt : make my trip.
+mmt main usp trip planning.
+
+Honeymoon package.
+7 days 7 night 
+
+1. tickets 2 awnish sunny
+2. flight ticket elipi and munnar
+3. Hotels 
+4. tourist guide
+5. cabs and boats 
+6. camera
+
+50-60 Thousand.
+1. time constraint 
+2. budgets. 
+3. management and cross dependency.
+
+packages is a collection different modules and services kept in a single folder with mechanism
+to manage modules,setup,use,and publish modules.
+ 
+folder structure of the packages 
+1. your-package
+	  |m1.py 
+	  |m2.py 
+	  |m3.py 
+	  |__init__.py
+there should be one special file 
+ 
+__init__.py : this file is important it could be blank
+__init__.py : it is entry point of the packages.
+__init__.py : is a special file which will automatically as soon packages is imported.
+
+
+sub-packages :- 	
+	packages inside packages 
+	
+package 
+	|sub-package 
+		|__init__.py  --------> init module 
+		|m1.py
+	|__init__.py 
+	|a.py 
+	
+from package.sub-package import m1
+from package import a
+
+NLP :-
+======
+gensim package 
+from genism.load import api 
+
+How to publish our packages as setup file :-
+=============================================
+like when you download any software we get .exe -> install 
+How to share our package we have two ways 
+1. zip -> share 
+2. make a wheel file.
+
+what is wheel file :-
+====================
+wheel file is a special file, just .exe which has inbuilt setuptool which will automatically install your package in system.
+my_package ---> convert to -----> wheel(.whl)
+it is like a build file of the package.
+
+Advantage :- 
+1. Fast installation
+2. globally install.
+3. easy to publish and share.
+
+How to make wheel files :-
+===========================
+1. pip install setuptools
+2. pip install wheel 
+
+python -m pip install wheel
+Requirement already satisfied: wheel in c:\users\imart\anaconda3\lib\site-packages (0.44.0)
+
+python -m pip install setuptools
+Requirement already satisfied: setuptools in c:\users\imart\anaconda3\lib\site-packages (80.9.0)
+
+we want to make my_package.whl (wheel for the my_package)
+create a file name setup.py
+
+my_package
+|
+setup.py 
+readme.txt optional 
+readme.md optional
+
+we make build:-
+================
+python setup.py sdist bdist_wheel
+
+where sdist : system distribution 
+bdist_wheel : binary distribution of wheel
+
+How to install wheel file :-
+pip install <filename.whl>
+
+decorators:-
+=============
+decorator is a like functions a higher order functions.
+what is higher order functions 
+A function is said to be higher order functions if it takes function as a argument and returns
+functions is said to be HOF
+
+What is difference b/w:-
+
+def f():
+	print('f is executing..')
+
+d = f 
+print(d) 
+d = f()
+print(d)
+
+nested functions :-
+===================
+functions declared inside another function.
+
+def a():
+	print('a body started')
+	def b():
+		print('b body started')
+		print('b body ended')
+	print('a body ended')
+
+
+
+a()
+
+function as Argument and return as functions:-
+===============================================
+Here we will pass function defnition as argument and return function as output 
+
+What is decorator:-
+==================
+1. is a HOF 
+2. decorator is a HOOK.
+	
+	Hook : it can grab machhli hook, without going inside water, we can catch the machhli 
+	and cook and eat.
+	
+3. A decorator is a like special which is used to add addtional functionality to existing 
+	class or method or functions without changing there syntax.
+
+4. decorator can run before and after the function 
+	pre decorator : called before functions call.
+	post decorator : called after functions call.
+	
+	
+calling the decorator:-
+@decorator : Annotation 
+
+consider a buy a gift it is already packed, you asked the gift decorator please wrap this 
+into gift wrapper Now this more decorated gift.
+
+decorator is a wrapper of the functions.
+syntax :-
+
+def my_decorator(func):
+	def wrapper():
+		res = func()
+		return res
+	return wrapper
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+	  
+	  
+	  
+	  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

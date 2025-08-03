@@ -8,6 +8,6 @@ print('memory id of add =>',id(add))
 print('a:',a) #No Reference
 print('result:',add(10,20))
 
-wish()
+
 
 
