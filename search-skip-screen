@@ -1,0 +1,66 @@
+[33mcommit 798f3bde699f649136e61db2eb5716d90dde85bc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Awnish Kumar <awnishmmg.a41@gmail.com>
+Date:   Sun Aug 3 22:20:19 2025 +0530
+
+    streamlite
+
+[33mcommit e1f5a35bcaf72809bca1faace1aa6fd0b817d3a1[m
+Author: Awnish Kumar <awnishmmg.a41@gmail.com>
+Date:   Sun Aug 3 15:39:11 2025 +0530
+
+    changes
+
+[33mcommit fb4b7878ce86884e2fde56bbfc6592d6243343ca[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Fri Aug 1 23:26:39 2025 +0530
+
+    modules and aliasing
+
+[33mcommit e8fc3c55bbb4332a6260ce20136edd2c88b2efb7[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Fri Aug 1 13:20:43 2025 +0530
+
+    Recursion use cases
+
+[33mcommit 8d882c688486f1e5fdd09e46e28a2baf86eeb239[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Wed Jul 30 12:34:50 2025 +0530
+
+    functions web-series chapter 2
+
+[33mcommit 7d3e4c01827c46e7fb4f73db77c7dd3b5b2b67fc[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Sun Jul 27 12:56:36 2025 +0530
+
+    functions complete concept
+
+[33mcommit abd25bfc15b81c59cc2e1f13cbf6ab7e320e27ae[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Sun Jul 27 09:01:15 2025 +0530
+
+    New files and Program added for dictionary,list and functions
+
+[33mcommit f8f723889d977713a34a3b0692c0a689efdd382b[m
+Merge: d8dc790 868da55
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Thu Jul 24 23:40:33 2025 +0530
+
+    Merged erge branch 'master' of https://github.com/awnishmmg/Python-with-Datascience-and-ML
+
+[33mcommit d8dc79053d57b6e487d1c93d86af5ca455401372[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Thu Jul 24 23:40:12 2025 +0530
+
+    working with streamlite
+
+[33mcommit 868da55131ccffe933aa29847a7091d290a6ee42[m
+Author: awnishmmg <55636215+awnishmmg@users.noreply.github.com>
+Date:   Thu Jul 24 13:55:25 2025 +0530
+
+    Update README.md
+
+[33mcommit a8be83d87cea3b6890748dcce0e57ed903443cc2[m
+Author: Awnish Kumar Sharma <awnishmmg.a41@gmail.com>
+Date:   Thu Jul 24 13:53:59 2025 +0530
+
+    first commit

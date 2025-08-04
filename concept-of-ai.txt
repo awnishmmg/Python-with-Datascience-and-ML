@@ -68,6 +68,191 @@ number_word = tens[q-1]
 next_word = units[r]
 	41 => forty one 
 	
+How to calculate confidence Score :-
+====================================
+	inputs = set([9,5,40,30,11,50,60,70,12,23,10,10,10])
+	unique _input = len(inputs)
+	
+	output = ['nine','Five','forty','thirty']
+
+	machine_output = []
+
+
+Working with Mathematical Implementation of AI :-
+=================================================
+we know that AI is a combination of computer and mathematics.
+Our Main Agenda to build Intelligent Machines or System.
+And the foundation of any Intelligent machine is foundational Mathematical.
+and computational mathematics.
+
+in Order to work foundational mathematical concept we have libraries like 
+1. numpy : Numerical Python (All foundational mathematical concept derive)
+2. pandas : for large of data set in form data frames, in form of csv, data cleaning and data process 
+	dropna and fillna 
+	dropna : missing drop 
+	fillna : missing fill 
+	
+	data conversion
+	csv to txt 
+	csv to excel
+	csv to pdf.
+	
+	Data Handlying,data processing,data cleaning.
+	
+3. matplotlib 
+	for 2d graphs,charts,visualisation
+4. seaborn 
+	used for Advance visualisation technique into histograms,heatmaps,insights,trends.
+	
+5. pydantic/Marshmallow : used for validations in ETL Pipelines
+              ETL : Extract transform Load.
+			  Data will be stored at Data ware house.
+
+6. pickle : used for serialization and deserialisiation 
+			if you want to use your own model and save them for later use.
+			my_model.pkl 
+   pickle has one advance framework joblib used for serialization and deserialisiation
+   of model into pickel file.
+   
+zip data structure:-
+=====================
+zip data structure a special datastrcture used in ML,and AI to represent paired data set.
+like wise python has primitive data structure like tuple,strings,list,dictionary,set,frozenset,
+range.
+But sometime we want to keep some data as pair of Heterogenous data items for this purpose 
+we go for zip.
+dictionary is also kind of zipped or paired datastrcture.
+
+Data structure overview :-
+=========================
+it is a paired combination of tuple inside list.
+
+names = ['ravi','krishna','aman']
+scores = [50,40,70]
+
+[('ravi',50),('krishna',40),('aman',70)]
+
+Data structure use case:-
+1. database connections data from the database will zipped ds
+2. pandas clustured data will be zipped ds.
+3. in ML many vectors and matrix in form in zipped ds
+
+1. similar size (equal size)
+	len(a) = len(b) = min or max 
+2. different size (unequal size) 
+	len(a) != len(b)
+	1. first list is bigger 
+		len(a) > len(b)
+	2. 2nd list is bigger.
+		len(b) > len(a)
+	
+1. always shortest list gets the preference.
+2. extra elements are discarded.
+3. data is highely ranked.
+
+computation in multiple dimensional Array :-
+===========================================
+in numerical computation in AL and ML with respect to data, there are 3 types of operations 
+1. scalar computation
+	Data when represented or computed at 1d array is called scalar computation
+2. vector computation (2d matrix)
+	data when represented or computed in 2d array is called vector computation
+3. tensor computation (3d-matrix)
+	data when represented or computed in 3d array is called tensor computation
+
+Note : nth dimension computation practically not possible for the machine because it will 
+high gpu and memory acceleration.
+in that we have concept of ranking.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

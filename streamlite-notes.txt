@@ -315,6 +315,63 @@ How to setup streamlit :-
 	=================================
 	streamlit run index.py
 	
+	working with mark down in streamlit:-
+	=====================================
+	whatsapp bold tag ** this is bold ** <------ markdown.
+	markdown is a technique of formatting the text, links or images 
+	tables,etc without using tags of html.
+	
+	st.markdown()
+	# ---> h1 
+	####### -> h6 
+	
+	
+	when you change the code the streamlit support Hot reloading.
+	so if the code changes frequently it keeps running
+	ctrl+r 
+	
+	run the streamlit development run 
+	streamlit run index.py --server.runOnSave false
+	
+	streamlite does not javascript but it supports and html and css
+	by some trick.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
