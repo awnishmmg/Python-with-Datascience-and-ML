@@ -164,6 +164,143 @@ Note : nth dimension computation practically not possible for the machine becaus
 high gpu and memory acceleration.
 in that we have concept of ranking.
 
+working with numpy :-
+====================
+1. numpy stands for numerical python.
+2. numpy is build upon c-libraries and fortan 
+3. very fast than python data structure.
+4. it deal with homogenuous dataset.
+
+what is use case:-
+======================
+1. Mathematical computations easily implement 
+2. vector computation  or tensor computation is, very fast.
+3. Directly used in DL and ML for feature engineering and data set insights.
+4. performing matrix calculations.
+5. statistical measure can be, easily implemented, Standard Deviation,mean,mode,percentile,
+   variance 
+6. easily solve regression problem, 
+7. finding ranks,eigen vectors, gradients, gradient score,correlations.
+
+
+How to install 
+===============
+1. using pip install globally**
+2. using anaconda (900Mb install to 3~5 GB) or miniconda.(miniversion in size)
+3. virtual env locally or cloud environment - Google colab.
+
+readymade : Anaconda 
+=====global========
+pip install numpy 
+=====local env =======
+python -m venv myenv 
+requirements.txt
+	numpy 
+	ipykernel ---> vs-inbuilt IDE (jupyter)
+	jupyter ----> Browser ---> IDE
+pip install numpy
+
+if you want some package via jupyter 
+!pip install numpy
+
+once installed 
+How to check version jupyter 
+==================================
+jupyter --version 
+
+jupyter 2 products 
+1. jupyter notebook : small level data Analytics
+2. jupyter lab : Enterprise Data Analytics
+
+jupyter is browser based Data Analytics IDE.
+Command:-
+jupyter notebook 
+jupyter lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
