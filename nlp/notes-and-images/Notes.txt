@@ -1,0 +1,475 @@
+Introduction of AI and ML and DL and NLP:-
+	=========================================
+	AI: Artificial Intelligence
+	ML : Machine Learning 
+	DL : Deep Learning 
+	NLP : Natural Langauge Processing.
+    1. NLT : Natural Langauge Translation
+    2. NLU : Natural Langauge Understanding
+
+    Tools used:-
+
+		1. Anaconda 
+		2. Google Collab
+		
+	11-June-2025:-
+	==================
+	What is AI (Artificial Intelligence)
+
+	AI is field of CS that aims to build such machines which can copy/mimic/replicate/imitate the human Intelligence
+
+	Myth:-
+	machines : Do-not consider AI to be as Iron Man Suit 
+	Machine : can be simple script, a simple bot, or Some Highfi Machine like Robot.
+
+	What comes under human Intelligence?
+	1. creative thinking or cognative thinking.
+	2. decision Making
+	3. learning (learning from mistakes)
+	4. problem solving.
+
+	Al at current Aug 2025, No AI can be as creative as human.
+	Ai propotype Human 
+
+	Real Life Example or Use cases:-
+	==========================
+	1.  Google Map :- 
+		1. traffic detection.
+		2. Path Detection and Optimisation.
+	2. Chatbots  : chatgpt (intially 1.0 Now it all-rounder)
+	3. self-driving car like Tesla : (Tesla Autopilot)
+		Air-Planes already have auto-pilot mode.
+	4. Face ID Unlock.
+	...
+	...
+	...
+
+	Branches of AI :
+	=====================
+	1. ML (Machine Learning)
+	2. Computer Vision : Highly Challan Camera.
+	3. NLP : Natural Langaue Processing 
+	4. DL : (Deep Learning)
+	5. Robotics. (chitti..,terminator)
+
+	Difference Between Automatic Machine and AI ?
+	1.   Automatic Machine : effeciency = 100%
+	2.   AI Machines : effeciency < 100%
+
+	Errors,  100 times -> Same Error 
+    at every error it will evolve it self. like human
+
+	classificaiton of AI :-
+	===============================
+	classification of AI is based on reliability & capability(ability) & effeciency.
+	and trust value.
+
+									-capability       			Agent
+	1. Narrow AI :  				Task Specific.    			Google Assitant,Siri,Alexa.
+	2. General AI/Fictious AI     Human Level Intelligence
+											 &
+								Human Level Adaption and Behaviour. Jarvis or Chitti
+								
+	3. Super AI :     Super Human Ability 							ultron,Nebula,
+																 Her Movie(Science ficiton)
+																	   Kalki.		
+
+	Narrow AI :
+	coding : claud.ai (Anthropy Sonnet 4)
+	Imaging : MidJourney
+	content writing : Chatgpt 
+	Research Paper : Research/Learning/study.(perpexility.ai)
+
+	Which is first AI Machine?
+
+	Automata (TOC) : Last Unit : Turing Machine.
+	Turing Machine : first theoratical Machine and this is ultimate
+	which gives basic foundation any computation.
+
+	Nobel Prize: Award Turing Award -> Alen Turing -> Turing Machine.
+	Term Launch ? Can Machine think like Humans.
+	Elon Mask : AI Driven Machine : Tesla -> "Mark My Words, Ai is far dangerous than we think"
+
+	We are living Narrow AI 
+	=========================
+	History/Evolution  : Homework.
+
+	Classificaiton of AI in ML,DL, NLP?
+	=====================================
+	Machine Learning:- 
+	it is Technique/way/process by which computer learns from data, insteading
+	predined Rules.
+
+	we have many system which can learn from data and perform 
+	task. How are they different from ML.
+	Eg: computer Game Playing, of Teken 3 
+
+	ML should not use, Hardcoded Rules, Patterns.
+	In Ml we provide data and label set (Yes or No)
+	Automatically Identify the Pattern and Learn.
+
+	Types of MLS :-
+	1. SL (Supervised Learning)
+	2. USL (Un-Super Vised Learning)
+	3. RL (Re-inforcement Learning)
+
+
+    These learning are classified on the basis of data structures 
+    as we know that we 3 types of data 
+    1. labelled or structured data 
+    2. un-labelled or un-structured data
+    3. semi-structured data. (labelled and un-labelled)
+
+	In Real Life we have cases of Semi-Supervised Learning?
+	1. structured : classify 
+	2. unstructred : -> new Pattern identify -> Emdeddings(vectors) -> Nearest
+	Neibhhood or Nearest Node Search (Graphs Algorithms.)
+
+	Core of AI : a Core of AI can be assumed a mathematical function f(x) which has some input I and 
+	called as Indepedent variable (Independent Features)
+	Output variables/output Pairs (dependent Features.)
+
+	y=f(x)
+	y dependent variable 
+	x independent 
+
+	y = 4x (x=1,2,3,...)
+
+	SL (Supervised Learning) 
+	===========================
+	1.Labelled Learning 
+	2. Learn from Label Data 
+	Eg : images 
+			1 Apple   2 Orange 
+			
+	or 
+	Supervised Learning is a type of learning which is done under some mentorship(under supervision)
+
+	Example :- Super vised learning 
+	1. House Price Prediciton 
+
+	Features/data : size(1 BHK,2 BHK),location
+	Label : Price 
+
+	Algorithms:-
+	===========================
+	1. Linear Regression (for prediction)
+	2. Logistic Regression (for classification)
+
+	Eg:- Email -> subject line -> "You won Lottery " ->
+		1. spam 
+		2. Ham (Not a Spam)
+		Filters -> classifiy -> emails of spam and not spam 
+		
+	3. Decision Tree(*imp)
+	4. Random Forest (**vvp)
+	5. Support Vector Machine(svm)
+
+	Use case How we can use Logistic Regression in Spam Detection?
+	1. Input(FI): 
+			email subject/email body ---> Regrex/text Processing
+											|
+											|
+										corpus (message or paragraph)
+											|
+										documents (sentences)
+											|
+										words/unique words
+											|
+										vacubalary
+											|
+										context free grammer
+											|
+											|
+										Feature Extract
+											|
+											Model 
+											(Train)
+											|
+											|
+										classification
+											|
+										Predict
+											|
+										spam or not 
+											
+					 
+	un-supervised Learning:-
+	The type of learning in which system learns without any supervision
+	or mentorship.
+
+	data + but not label
+	1. we have data but no labels.	
+	what is our end goal : Identify the hidden Patterns or Structure,
+	or symmetry.
+
+	Example:-
+	customer Identify In Retail Service.
+
+	Features : Age,income,spending
+	Identify : Luxury Buyer, Budget Buyer, commericial Buyer and
+	Residencial Buyer.
+
+	Algorithms:-
+	1. K Means clustering
+	2. Hieririchal Classification or clustering
+	3. DBSCAN 
+	4. PCA (Dimension Reduction)***
+
+	youtube vedio link: https://www.youtube.com/watch?v=3d5iyFSOTwA
+
+	12-06-2025:-
+	==============
+	Re-inforcement Learning:-
+	This is Ml Algorithms, Agents or computer or machine learns from rewards and 
+	punishment.
+
+	How Model will work:-
+	1. we have Model --> data set ---> Train (Input Feature & Output Feature)
+	2. Operation -> win cases or loss case lossedcases_data  = []
+	3. lossedcases_data -> train -> operation --> win & lossed.
+
+	Reward Driven.
+	use case :- Chess Game,Mario,Contro.
+
+	How the life cycle of reinforcment learning goes:-
+
+	1. Environment 
+	2. Actions
+	3. Reward/Goal
+	4. updates Policy
+
+	chess Board : Board Environment 
+	Pyadey : actions 
+	Reward/Goal : 
+
+	Algorithm:-
+	===============
+	1. Q Learning 
+	2. Deep Q Networks (DQN)
+	3. Policy Gradient 
+	4. Tensor Gradient 
+	5. PPO, A3C
+
+	Simple Explaination by Mahabharat:-
+	1. Arjun -> warriour -> learning -> Guru Dronacharya.
+		supervised Learning
+	2. Eklawya -> warriour -> learned -> archery without ->  Guru Dronacharya
+		learned without present of Guru Dronacharya
+		un-supervised learning
+	3. Karan : No At last very last stage, of Karan he was trained by 
+		Guru Parusharam
+		
+		Karan -> very talented since child hood, he learned everything
+		by implementation.
+		he made mistake and learned lot.
+		Re-inforcement - Learning.
+		
+	Re-inforcement Learning is inspired from environment.
+	small childrens are best example of Re-inforcement Learning.
+
+	Frog, Chockroach, Lizard, 
+	Chotey Bacche 
+
+	Mathematical Impression of Reinformcement Learning:-
+	======================================================
+	Chess Game in Terms Reinformcement Learning :-
+
+	RL : agent -> at initial level it make not take correct action.
+	Example :-> you can step wrong step, under the affect Environment and its consequences
+	these result will decide what will be next step.-> as you become -> more 
+	open to Environment -> you become more cleaver.
+
+	what is our learning creteria ?
+	1. trail and Error (TE Algorithm)
+	2. we donot have any labelled data.
+
+	Re-inforcement learning is kind of un-super vised learning where at intial level
+	we donot have any lebeled data, but as we interact with Environment our 
+	action to Environment result to effect.
+	and effect for next time will becomes data.
+
+	Re-inforcement is Recursive in Nature.
+	your past action will act as input data for next step.
+
+	Applying Mathematical Represenation of Chess in RL:-
+	=====================================================
+	RL Component     			|  chess Board 
+	-----------------------------------------------------
+
+	Agent               			Chess Player X -> Y (Opponent -> Agent)
+	Environment      			|  Chess Board and Rules
+	Intial State     			|  intial Position of pawn.
+	(Finite state of            |
+	Automata)                   |
+								|
+	Action/Moves                | A Legal Move of Queen, Bishop, Elephant,Horse.
+	Reward                      | +1 for win, 0 draw ,
+								|   
+	loss                        |  win by opponent 
+
+	<--------------------------1 chance ------------------------->
+
+	Policy (pi)                 |  strategy change 
+	Strategy 
+
+	value f(x)                  | strategy, Actions -> Reward/loss
+	End Goal
+									V of f(x) => R(f(S,A))
+
+
+	Q Factor/Functions = State + Action.
+
+	Write a Sudo Code for the RL in Chess Game:-
+	================================================
+	max_reward = 16
+	is_game_running = True  #false value of is_game_running : Game over 
+	while is_game_running:
+		state = get_current_position(x,y) #x Player X and Y : Opponent
+		action  = move_steps(state(x))
+		new_state,reward = next_steps_with_result(action)
+		if(reward):
+			state = get_current_position(x,y)
+			action  = move_steps(state(x))
+		elif(reward == max_reward)
+			is_game_running = False 
+			break;
+		elif(state == new_state):
+			if action == False 
+				game_draw()
+				is_game_running = False 
+				break;
+		else:
+			update_strategy(state,action,reward,new_state)
+
+
+	Introduction to Deep Learning:-
+	===============================
+	In Deep Learning, we try to build Artificial Network.
+	How Brains Works.
+	Axon:- Human Neuron 
+
+	Artificial Network. it is Mathematical Functions, which can accepts inputs
+	and extract feature.
+	Artificial Neural Network is a combination of Multiple Layers or Nodes to One Another.
+
+	3 tier Architecture :-
+	============================
+	1. Input Layers : it accept the inputs
+	2. Hidden Layer -> Complex Computation of Mathematical function.
+					  it responsible computation and handling complex logics.
+	3. Output Layer : feature extraction.
+
+	Real World Use cases:-
+	1. Self Driving Cars.
+	2. Speech to Text
+	3. Face Recognition
+
+	Architecture of Deep Learning 
+	1. ANN (Artificial Neural Network)
+	2. CNN (Convolutional Neural Network) - for Images & Images Processing
+	3. RNN/LSTM - Sequencial Data -> text/audio
+	4. Transformers -> Most Effeciency Advance of NLP.
+
+	What is CNN?
+
+	used to Identify the patterns,shapes,edges,objects...etc 
+	CNN have 3 Layers
+	1. CN Layer -> Detect Patterns -> Vector Size -> Large
+	2. Pooling Layer  -> Reduce the size by some ratio.
+	3. Fully Connected Layer -> Prediction of class,group or Hierarichy.
+
+	what is workflow of the CNN ?
+	CN Layer -> Pooling Layer -> Fully Connected Layer
+
+	Libraries:-
+	1. Tensorflow
+	2. Pytorch
+	3. PyVision /pytorchvision
+	4. Keras.
+
+	13-06-2025:-
+	==============
+	What is NLP ?
+	Problem Statement (Goal): we want the machine which understand, Interpret,generate the response 
+	for human langauge.
+	Inputs : text, audio, speech, visuals
+
+	Example:-
+	1. Sentiment Enalysis (Emotion)
+		Famous : Custom Review, Feedback,Social Media Posts, Comments.
+
+	Do you know about kaggle ?
+	Kaggle Open AI community, Learnes, Open Source, AI and ML Plateform.
+	Kaggle 1. 
+	comptition, hackathons, Real Time Problem (use cases + data set (model Train))
+
+	we will kaggle to basically for finned dataset.
+	we have 2 types of 2 data set 
+
+	1. training data set : mix type data, true and false, mixed cases.
+	2. validation data set/audit data set.
+
+	2. Machine Translation
+	3. I18n : Internationalisation -> Multi Lingual 
+	4. Text Summarization
+	5. Question Answering 
+	6. Named Based Entity Recognition.
+
+	NLP Pipelines :-
+	===================
+	Pipelines : it is step by step process  or stage by stage process that is mendatory to achieve
+	NLP based Problem.
+
+	Steps Involved in NLP Pipline
+
+	<----------|	1st Phase/1st step |-------------->
+	1. Data Cleaning (text cleaning/audio cleaning)
+	2. Tokenization : Breaking the Input into small,small-token (lexes or lexicals)
+	<-----------|	2nd Phase/2nd step	|------------->
+	3. Fine Tune 
+	   1. Stopword Removal (we remove stopping words, is, the, an,etc)
+	   Eg:-
+	Eg : The Ram is dancing in the Ground    
+		 -Remove The 
+		 Ram is dancing in the ground.
+		 -Remove is 
+		 Ram dancing in the ground
+		 -Remove in 
+		 Ram dancing the ground 
+		 -Remove the 
+		 Ram dancing ground 
+	   
+		2. Stemming Technique
+		3. Lemmatization Technique
+			 Convert the words to Root Form.
+			 Eg:- 1. eating,ate,eaten (eat)
+				  2. going, goes, gone (go)
+				  
+	<--------------|	3 Phase/3 Step (1d,2d)	|------------------>
+	Vectorization : we try to convert text data (words,sentence,grammer,corpus,vacubalary,documents)
+				   ----> In Vector(s)
+							|
+							|
+							| 
+	<--------------| 3 Phase/3 Step (1d,2d,3d)	|------------------> (optional)
+	Tensors : we try to convert text data (words,sentence,grammer,corpus,vacubalary,documents)
+				   ----> In Vector(s)
+					
+					How to do vectorization (convert text data to vector)
+					1. Bag of Words
+					2. Word2Vec/Glove 
+					3. TF-IDF.
+					...
+					...
+					...
+	<--------------| 4 Phase/4 Step (1d,2d,3d)	|------------------> (optional)			
+	Advance NLP Technique :- Chatgpt, Gemini, Google Translator
+	1. Embedding (Most Accurate, Result Set/Vectors)
+	2. BERT (Bi-directional Encoder Represenation from Transformers)
+		1. Encoder (uni-directional)
+		2. Decoder (uni-directional)
+		3. Bi-directional  Encoder and Decoder
+		
+	<--------------- 5 Phases/5 Step ------------------------->
+			 Transformer Techniques.

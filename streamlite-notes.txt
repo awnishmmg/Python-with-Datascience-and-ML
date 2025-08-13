@@ -324,8 +324,7 @@ How to setup streamlit :-
 	st.markdown()
 	# ---> h1 
 	####### -> h6 
-	
-	
+
 	when you change the code the streamlit support Hot reloading.
 	so if the code changes frequently it keeps running
 	ctrl+r 
@@ -335,6 +334,14 @@ How to setup streamlit :-
 	
 	streamlite does not javascript but it supports and html and css
 	by some trick.
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

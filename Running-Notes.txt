@@ -1126,6 +1126,52 @@ def my_decorator(func):
 	return wrapper
 	
 	
+working with pandas:-
+1.pandas are very famous library used for data handling, data manipulation and 
+data Abnalytics and cleaning.
+
+main purpose of pandas 
+1. Data Storage and Reprensentation
+	1. store data in series 1d and 2d (Dataframe) like Excel
+	2. like numpy the data type of np.array should be homogenious
+	but in case of pandas we can use any type of value of the fields.
+	
+	3. we can store heterogenious data elements also.
+
+2. Data Cleaning 
+	1. Remove Duplicate 
+	2. handle missingvalue (dropna or fillna)
+	3. Replace,reformat,normalise the data.
+	
+3.  Data Transformation:-
+1. filter,sort,group,merge,pivot,reshape the dataset. (v lookup)
+
+4. Data Analytics : generate the automatic report.
+	1. find the meta data like (mean,sum,count)
+	
+5. time Series Analysis
+6. Data or Input and output layer
+	1. read/write from csv,excel,sql,...etc 
+7. smooth Integration  using numpy,matplotlib,seaborn,sckit learns
+
+Working with nltk :-
+====================
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
