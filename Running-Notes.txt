@@ -1156,6 +1156,30 @@ main purpose of pandas
 
 Working with nltk :-
 ====================
+Concepts 
+1. tokenisation 
+2. stop word removal 
+3. stemming & Lemmatization 
+4. Name Entity Recognistion 
+5. Chunking 
+6. POS Tagging
+7. Context Free Grammer 
+8. Parse Tree 
+9. Probability Distribution with Graphical Plotting 
+
+Native langauge use : English.
+NLP Use case : Human Understand Information 
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
